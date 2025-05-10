@@ -24,6 +24,7 @@ export default function Header() {
     };
   }, []);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, _id: string) => {
     e.preventDefault();
     // The actual scrolling is now handled by Lenis through the hash link click handler
