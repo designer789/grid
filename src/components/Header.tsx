@@ -24,7 +24,7 @@ export default function Header() {
     };
   }, []);
 
-  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, _id: string) => {
     e.preventDefault();
     // The actual scrolling is now handled by Lenis through the hash link click handler
     if (mobileMenuOpen) {

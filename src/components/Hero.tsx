@@ -1,10 +1,7 @@
 import Image from 'next/image';
 import Intro from './Intro';
-import { useRouter } from 'next/navigation';
 
 export default function Hero() {
-  const router = useRouter();
-  
   // Function to handle smooth scrolling with Lenis
   const scrollToSection = (e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>, id: string) => {
     e.preventDefault();
