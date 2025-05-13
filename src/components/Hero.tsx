@@ -51,7 +51,7 @@ export default function Hero() {
               Get Started
             </a>
             <a 
-              href="https://grid.gitbook.io/docs" 
+              href="https://docs.gridnet.network/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 sm:px-8 py-3 sm:py-4 border-2 border-primary text-primary font-medium rounded-lg text-base sm:text-lg transition-colors hover:bg-primary/5 whitespace-nowrap inline-block"
